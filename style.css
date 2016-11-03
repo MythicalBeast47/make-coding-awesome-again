@@ -5,3 +5,25 @@ h1 {
 
 
 }
+
+img {
+
+  width: 200px;
+  animation-duration: 2s;
+  animation-name: spin;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+
+}
+
+@keyframes spin {
+  from {
+  margin-left: 50%;
+  }
+  to {
+    margin-left: 0;
+
+  }
+
+
+}
