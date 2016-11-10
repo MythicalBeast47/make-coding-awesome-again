@@ -1,0 +1,11 @@
+h1{
+  color: blue;
+}
+div{
+  background-color: yellow;
+}
+.middle{
+  background-color: purple;
+  margin: 0 auto;
+  max-width: 800px;
+}
