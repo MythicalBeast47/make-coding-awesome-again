@@ -1,0 +1,28 @@
+p {
+
+  color: yellow;
+}
+
+#mtn{
+animation-duration: 0.000000001s;
+animation-name: mtn;
+animation-iteration-count: infinite;
+position: fixed;
+
+
+}
+
+@keyframes mtn {
+  from {
+    top: 50%;
+    left: 50%;;
+  }
+
+  to {
+    top: 50%;
+    left: 50%;
+    transform: rotate(360deg);
+  }
+
+
+}
